@@ -24,7 +24,7 @@ int main()
 		else if(a[mid]>key)
 		{
 		last=mid-1;
-			printf("flag=1 and key element found");	
+			printf("flag=1 and key element not found");	
 				break;
 		}
 		else if(a[mid]<key)
